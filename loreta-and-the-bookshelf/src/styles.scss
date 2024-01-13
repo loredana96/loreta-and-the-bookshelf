@@ -1,6 +1,6 @@
 @import '../src/app/shared-scss/style.scss';
 body {
-    background-color: $beige;
+    background-color: rgb(49 49 49);
     user-select: none;
 }
 
@@ -9,22 +9,48 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(159, 139, 112);
+    background: rgb(96, 95, 95);
     border-radius: 100vw;
     margin-block: .5em;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(125, 110, 89);
+    background: rgb(178, 176, 176);
     border-radius: 100vw;
 }
 
-.wrapper-main {
-    width: 1000px;
-    margin: auto;
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .wrapper-main {
+        width: 400px;
+        margin: auto;
+    }
+    
+    .wrapper-content {
+        width: 300px;
+        margin: auto;
+    }
 }
 
-.wrapper-content {
-    width: 800px;
-    margin: auto;
+@media screen and (min-width: 501px) and (max-width: 821px) {
+    .wrapper-main {
+        width: 700px;
+        margin: auto;
+    }
+    
+    .wrapper-content {
+        width: 500px;
+        margin: auto;
+    }
+}
+  
+  @media screen and (min-width: 820px) {
+    .wrapper-main {
+        width: 1000px;
+        margin: auto;
+    }
+    
+    .wrapper-content {
+        width: 800px;
+        margin: auto;
+    }
 }
