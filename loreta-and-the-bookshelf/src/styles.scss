@@ -1,6 +1,7 @@
 @import '../src/app/shared-scss/style.scss';
 body {
     background-color: $beige;
+    user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -16,4 +17,14 @@ body {
 ::-webkit-scrollbar-thumb {
     background: rgb(125, 110, 89);
     border-radius: 100vw;
+}
+
+.wrapper-main {
+    width: 1000px;
+    margin: auto;
+}
+
+.wrapper-content {
+    width: 800px;
+    margin: auto;
 }
