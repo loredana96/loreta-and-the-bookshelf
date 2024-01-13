@@ -76,15 +76,16 @@
 
 .header {
     height: 50px;
-    max-width: 300px;
+    max-width: 270px;
     line-height: 50px;
-    background:  rgb(159, 139, 112);
+    background:  rgba(142, 105, 74, 0.233);
     border-radius: 20px 50% 0 50%;
+    box-shadow: 0px 10px 100px rgba(67, 45, 22, 20);
 }
 
 .header span {
     font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #000;
+    color: rgb(142, 105, 74);
     font-size: 30px;
     padding: 20px 20px;
 }
